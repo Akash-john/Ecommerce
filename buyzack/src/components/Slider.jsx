@@ -1,5 +1,6 @@
 import styled from "@emotion/styled";
 import { ArrowLeftOutlined, ArrowRightOutlined } from "@material-ui/icons";
+import one from "../assets/Images/one.jpg";
 
 const Slider = () => {
   return (
@@ -8,7 +9,9 @@ const Slider = () => {
         <ArrowLeftOutlined />
       </Arrow>
       <Wrapper>
-        <ImgContainer></ImgContainer>
+        <ImgContainer>
+          <Image src={one} />
+        </ImgContainer>
         <InfoContainer></InfoContainer>
       </Wrapper>
       <Arrow direction="right">
