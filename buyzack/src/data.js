@@ -4,7 +4,14 @@ import Five from "./assets/Images/Five.jpg";
 import ShirtStyle from "./assets/Images/ShirtStyle.avif";
 import lounge from "./assets/Images/Lounge.webp";
 import Jacket from "./assets/Images/Jacket.jpg";
-
+import Cap from "./assets/Images/Cap.webp";
+import Shirt from "./assets/Images/Shirt.jpeg";
+import Shorts from "./assets/Images/Shorts.jpg";
+import Jackets from "./assets/Images/Jackets.jpg";
+import InnerWear from "./assets/Images/InnerWear.jpg";
+import Hat from "./assets/Images/Hat.jpg";
+import Trousers from "./assets/Images/Trousers.webp";
+import Tshirt from "./assets/Images/Tshirt.jpg";
 export const sliderItems = [
   {
     id: 1,
@@ -44,5 +51,40 @@ export const categories = [
     id: 3,
     img: Jacket,
     title: "LIGTH JACKETS ",
+  },
+];
+
+export const popularProducts = [
+  {
+    id: 1,
+    img: Shirt,
+  },
+  {
+    id: 2,
+    img: Cap,
+  },
+  {
+    id: 3,
+    img: Jackets,
+  },
+  {
+    id: 4,
+    img: Shorts,
+  },
+  {
+    id: 5,
+    img: Hat,
+  },
+  {
+    id: 6,
+    img: Tshirt,
+  },
+  {
+    id: 7,
+    img: Trousers,
+  },
+  {
+    id: 8,
+    img: InnerWear,
   },
 ];
