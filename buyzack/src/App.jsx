@@ -6,7 +6,16 @@ import Register from "./pages/Register";
 import SingleProduct from "./pages/SingleProduct";
 
 const App = () => {
-  return <Cart />;
+  return (
+    <>
+      <Register />
+      <Login />
+      <Home />
+      <ProductList />
+      <SingleProduct />
+      <Cart />
+    </>
+  );
 };
 
 export default App;

@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import RegisterImg from "../assets/Images/Registerbg.jpg";
+import { mobile } from "../responsive";
 
 const Register = () => {
   return (
@@ -45,6 +46,7 @@ const Wrapper = styled.div`
   padding: 20px;
   width: 40%;
   background-color: white;
+  ${mobile({ width: "75%" })}
 `;
 const Title = styled.h1`
   font-size: 24px;

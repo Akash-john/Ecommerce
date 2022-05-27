@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import LoginImg from "../assets/Images/Login.jpg";
+import { mobile } from "../responsive";
 
 const Login = () => {
   return (
@@ -38,6 +39,7 @@ const Wrapper = styled.div`
   padding: 20px;
   width: 25%;
   background-color: white;
+  ${mobile({ width: "75%" })}
 `;
 const Title = styled.h1`
   font-size: 24px;
