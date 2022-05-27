@@ -108,6 +108,7 @@ const SocialIcon = styled.div`
 const Center = styled.div`
   flex: 1;
   padding: 20px;
+  ${mobile({ display: "none" })}
 `;
 const Title = styled.h3`
   margin-bottom: 30px;
@@ -119,14 +120,16 @@ const List = styled.ul`
   display: flex;
   flex-wrap: wrap;
 `;
-const ListItem = styled.li`
+const ListItem = styled.a`
   width: 50%;
   margin-bottom: 10px;
+  cursor: pointer;
 `;
 
 const Right = styled.div`
   flex: 1;
   padding: 20px;
+  ${mobile({ backgroundColor: "#eeee" })}
 `;
 const ContactItem = styled.div`
   margin-bottom: 20px;
