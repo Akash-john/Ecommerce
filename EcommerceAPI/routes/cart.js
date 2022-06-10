@@ -35,7 +35,7 @@ router.put("/:id", verifyTokenAndAuthorization, async (req, res) => {
   }
 });
 
-//DELETE PRODUCT
+//DELETE cart
 
 router.delete("/:id", verifyTokenAndAuthorization, async (req, res) => {
   try {
