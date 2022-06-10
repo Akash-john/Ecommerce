@@ -2,7 +2,9 @@ import styled from "@emotion/styled";
 import React from "react";
 
 const Announcement = () => {
-  return <Container>Super Deal! Free Shipping on Orders Over $50</Container>;
+  return (
+    <Container>Super Deal! Free Shipping on Orders Over &#x20B9;250</Container>
+  );
 };
 
 export default Announcement;

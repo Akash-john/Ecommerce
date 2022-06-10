@@ -1,35 +1,21 @@
-import Two from "./assets/Images/Two.jpg";
-import Six from "./assets/Images/Six.jpg";
-import Five from "./assets/Images/Five.jpg";
-import ShirtStyle from "./assets/Images/ShirtStyle.avif";
-import lounge from "./assets/Images/Lounge.webp";
-import Jacket from "./assets/Images/Jacket.jpg";
-import Cap from "./assets/Images/Cap.webp";
-import Shirt from "./assets/Images/Shirt.jpeg";
-import Shorts from "./assets/Images/Shorts.jpg";
-import Jackets from "./assets/Images/Jackets.jpg";
-import InnerWear from "./assets/Images/InnerWear.jpg";
-import Hat from "./assets/Images/Hat.jpg";
-import Trousers from "./assets/Images/Trousers.webp";
-import Tshirt from "./assets/Images/Tshirt.jpg";
 export const sliderItems = [
   {
     id: 1,
-    img: Two,
+    img: "https://i.ibb.co/K24DKYr/Two.jpg",
     title: "SUMMER SALE",
     DESC: "DONT COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
     bg: "f5fafd",
   },
   {
     id: 2,
-    img: Six,
+    img: "https://i.ibb.co/NjPcsM6/Six.jpg",
     title: "AUTUMN SALE",
     DESC: "DONT COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
     bg: "fcf1ed",
   },
   {
     id: 3,
-    img: Five,
+    img: "https://i.ibb.co/RBYbKv4/Five.jpg",
     title: "WINTER SALE",
     DESC: "DONT COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
     bg: "fbf0f4",
@@ -39,52 +25,55 @@ export const sliderItems = [
 export const categories = [
   {
     id: 1,
-    img: ShirtStyle,
+    img: "https://i.ibb.co/v3K9KXG/Shirt-Style.jpg",
     title: "SHIRT STYLE!",
+    cat: "women",
   },
   {
     id: 2,
-    img: lounge,
+    img: "https://i.ibb.co/wNWRX8n/Lounge.webp",
     title: "LOUNGEWEAR LOVE",
+    cat: "coat",
   },
   {
     id: 3,
-    img: Jacket,
+    img: "https://i.ibb.co/8zXTTLH/Jacket.jpg",
     title: "LIGTH JACKETS ",
+    cat: "jackets",
   },
 ];
 
 export const popularProducts = [
   {
     id: 1,
-    img: Shirt,
+    img: "https://i.ibb.co/253J60G/Shirt.jpg",
   },
   {
     id: 2,
-    img: Cap,
+    img: "https://i.ibb.co/3Rrc3jH/Cap.webp",
   },
   {
     id: 3,
-    img: Jackets,
+    img: "https://i.ibb.co/Rv6NTgv/Jackets.jpg",
   },
   {
     id: 4,
-    img: Shorts,
+    img: "https://i.ibb.co/VJs5cMq/Shorts.jpg",
   },
   {
     id: 5,
-    img: Hat,
+    img: "https://i.ibb.co/fdDwZPz/Hat.webp",
   },
   {
     id: 6,
-    img: Tshirt,
+    img: "https://i.ibb.co/D70S3sD/Tshirt.jpg",
   },
   {
     id: 7,
-    img: Trousers,
+    img: "https://i.ibb.co/rd5bzcd/Trousers.webp",
   },
   {
     id: 8,
-    img: InnerWear,
+    img: "https://i.ibb.co/LPWhcnK/Inner-Wear.jpg",
   },
 ];
